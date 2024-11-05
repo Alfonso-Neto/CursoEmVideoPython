@@ -1,0 +1,6 @@
+num = float(input('Digite um número: '))
+#d = float(num * 2)
+#t = float(num * 3)
+#r = float(num ** (1/2))
+print('O dobro do seu número é: {} \no triplo é: {} \ne a raíz quadrada: {:.3f}'.format(num*2,(num*3) ,pow(num, (1/2))) )
+#também é possível fazer a raíz quadrada com o "pow" = pow(num, (1/2)

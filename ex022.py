@@ -1,0 +1,10 @@
+nome = str(input('Digite seu nome: '))
+mais = nome.upper()
+min = nome.lower()
+sem = (len(nome) - nome.count(' '))
+n1 = nome.split()
+
+print('Nome em maiúsculo: {}'.format(mais))
+print('Nome em minúsculo: {}'.format(min))
+print('O número de letras sem contar os espaços é de: {}'.format(sem))
+print('O primeiro nome é ', n1[0], 'e tem:', len(n1[0]), 'Letras')
